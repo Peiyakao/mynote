@@ -1,3 +1,6 @@
 
-const name = require("./lession2.js");
-console.log(name);
+// const name = require("./lession2.js"); 引用指定檔案中已輸出的參數
+// console.log(name);
+const notes = require("./note.js");
+const msg = notes()
+console.log(msg);
